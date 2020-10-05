@@ -1,0 +1,475 @@
+body {
+    background-color: #e3d3d3;
+    font-family: Candara, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 137px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 425px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -212px;
+}
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    float: left;
+}
+
+#tituloLogo {
+    float: left;
+    color: black;
+    line-height: 100px;
+    margin: 0;
+    font-size: 44px;
+    padding-left: 40px;
+}
+
+#menu {
+    width: 100%;
+    background-color: #5D4141;
+}
+
+.listaMenu {
+    width: 350px;
+    position: relative;
+    left: 50%;
+    margin-left: -205px;
+    margin-top: 7px;
+}
+
+.listaMenu li {
+    display: inline-block;
+}
+
+.listaMenu li a {
+    text-decoration: none;
+    height: 50px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.listaMenu li a:link, .listaMenu li a:visited {
+    color: white;
+}
+
+.listaMenu li a:hover {
+    color: #684A4A;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#content {
+    width: 700px;
+    background-color: #ededed;
+    position: relative;
+    left: 50%;
+    margin-left: -350px;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.click {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+div#menu {
+    height: 80px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+h2#promocaoValor {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 40px;
+}
+
+#areaProdutos table {
+    border-spacing: 25px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#areaProdutos td {
+    width: 250px;
+    color: black;
+    font-size: 20px;
+}
+
+#areaProdutos td img {
+    margin-top: 5px;
+    border: 2px solid #5D4141;
+    max-width: 100%;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 20px;
+}
+
+#areaProdutos td img:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -moz-transform: scale(1.8) rotate(-5deg);
+    -webkit-transform: scale(1.8) rotate(-5deg);
+    -o-transform: scale(1.8) rotate(-5deg);
+    -ms-transform: scale(1.8) rotate(-5deg);
+    transform: scale(1.8) rotate(-5deg);
+}
+
+.tituloProduto {
+    font-weight: bold;
+    margin: 0;
+}
+
+.precoProduto {
+    margin: 0;
+}
+
+#entrega {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    height: 100px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#entrega img {
+    border-radius: 50%;
+    border: 3px solid #5D4141;
+    margin-top: 17px;
+    box-shadow: 5px 5px 8px #303030;
+}
+
+#entrega img:hover {
+    box-shadow: 5px 5px 8px black;
+}
+
+#tel {
+    position: absolute;
+    left: 120px;
+    height: 100px;
+    background-color: #694949;
+    color: white;
+    margin-top: 13px;
+    padding: 15px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #303030;
+}
+
+#tel h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#tel h5 {
+    margin: 0;
+    font-size: 19px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+#tel a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    margin: 0;
+    max-width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding-right: 100px;
+    align-content: center;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+textarea {
+    height: 200px;
+}
+
+::placeholder {
+    font-size: 19px;
+    text-align: left;
+    font-family: Candara, Helvetica, sans-serif;
+}
+
+.contato h3 {
+    text-align: center;
+    font-size: 23px;
+}
+
+#enviar {
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+input#enviar:hover {
+    border-color: black;
+    box-shadow: 5px 5px 8px #444444;
+}
+
+#mapa {
+    align-content: center;
+    width: 100%;
+    height: 1000px;
+}
+
+h1#tituloLogo {
+    font-size: 35px;
+}
+
+#footer {
+    background: #5D4141;
+    padding-bottom: 10px;
+}
+
+.direitos {
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+
+#sobre {
+    font-size: 28px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 90px;
+}
+
+#icones {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.icons {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+#icones :hover {
+    color: black;
+    text-decoration: underline;
+    background-color: #888888;
+    border-radius: 7px;
+}
+
+.fundo {
+    background: #ededed;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+#separador {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    border-style: solid black 10px;
+}
+
+#prato1 {
+    height: 150px;
+    width: 100%;
+}
+
+#inglesa {
+    height: 150px;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    #footer {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 320px) {
+    .fundo {
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .fundo {
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .fundo {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fundo {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .fundo {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .fundo {
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .fundo {
+        margin-left: 470px;
+        margin-right: 470px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .fundo {
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .fundo {
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .fundo {
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .fundo {
+        margin-left: 650px;
+        margin-right: 650px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .fundo {
+        margin-left: 700px;
+        margin-right: 700px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .fundo {
+        margin-left: 750px;
+        margin-right: 750px;
+    }
+}
+
+@media (min-width: 2100px) {
+    .fundo {
+        margin-left: 800px;
+        margin-right: 800px;
+    }
+}
+
+@media (min-width: 2200px) {
+    .fundo {
+        margin-left: 850px;
+        margin-right: 850px;
+    }
+}
+
+@media (min-width: 2300px) {
+    .fundo {
+        margin-left: 900px;
+        margin-right: 900px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .fundo {
+        margin-left: 950px;
+        margin-right: 950px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .fundo {
+        margin-left: 1000px;
+        margin-right: 1000px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .fundo {
+        margin-left: 1030px;
+        margin-right: 1030px;
+    }
+}
+
